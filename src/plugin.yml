@@ -1,0 +1,23 @@
+author: KlukCZ
+name: UUIDBlocker
+version: 1.0
+main: me.KlukCZ.UUIDBlocker.Main
+description: A small plugin enabling you to add player to a BlackList using his unique UUID
+
+commands:
+  uuidblocker:
+    usage: /<command>
+    description: Shows all commands
+
+  uuid:
+    usage: /<command>
+    description: Shows your UUID
+
+permissions:
+  uuidblocker.player:
+    description: Enables the player to use player commands
+    default: true
+
+  uuidblocker.admin:
+    description: Enables the player to use all of the commands
+    default: op
