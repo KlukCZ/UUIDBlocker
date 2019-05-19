@@ -35,7 +35,7 @@ public class Commands implements CommandExecutor{
                     sender.sendMessage("§6§l> §7Shows all the information of the plugin");
                     sender.sendMessage(" ");
                     sender.sendMessage("§7/uuidblocker add §9§l<Player>");
-                    sender.sendMessage("§6§l> §7Adds a Player to the UUID BlockLoist");
+                    sender.sendMessage("§6§l> §7Adds a Player to the UUID BlockList");
                     sender.sendMessage(" ");
                     sender.sendMessage("§7/uuidblocker remove §9§l<Player>");
                     sender.sendMessage("§6§l> §7Removes a Player from the UUID BlockList");
@@ -94,7 +94,7 @@ public class Commands implements CommandExecutor{
                         return true;
                     }else{
                         sender.sendMessage("§6§lUUIDBlocker> §cYOu do not have permission to do that!");
-                    }/
+                    }
                 }
                 return true;
             }
